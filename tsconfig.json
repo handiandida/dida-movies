@@ -1,0 +1,14 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+ "compilerOptions": {
+    "jsx": "react-jsx",     // or "react" if not using React 17+ JSX transform
+    "esModuleInterop": true,
+    "allowJs": true,
+    // optionally, for testing only
+    "isolatedModules": true
+  },
+}
